@@ -1,2 +1,7 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+<script>
+    import Button, {Label} from '@smui/button';
+</script>
+<h1>Bienvenido a GM247 Administrador</h1>
+<Button color="secondary"  variant="raised">
+    <Label>Raised</Label>
+</Button>
