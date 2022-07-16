@@ -16,8 +16,13 @@
 		"@smui/button": "^6.0.0-beta.16",
 		"@smui/card": "^6.0.0-beta.16",
 		"@smui/data-table": "^6.0.0-beta.16",
+		"@smui/dialog": "^6.0.0-beta.16",
+		"@smui/drawer": "^6.0.0-beta.16",
+		"@smui/icon-button": "^6.0.0-beta.16",
 		"@smui/layout-grid": "^6.0.0-beta.16",
+		"@smui/list": "^6.0.0-beta.16",
 		"@smui/textfield": "^6.0.0-beta.16",
+		"@smui/top-app-bar": "^6.0.0-beta.16",
 		"@sveltejs/adapter-auto": "next",
 		"@sveltejs/kit": "next",
 		"eslint": "^8.16.0",
@@ -29,5 +34,8 @@
 		"svelte": "^3.44.0",
 		"vite": "^3.0.0"
 	},
-	"type": "module"
+	"type": "module",
+	"dependencies": {
+		"@supabase/supabase-js": "^1.35.4"
+	}
 }
